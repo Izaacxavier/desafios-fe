@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import {Container} from './styles'
 
 export function MenuMobile ({isOpen, setisOpen, setMenuIsOpen}){
