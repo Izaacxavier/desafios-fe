@@ -25,7 +25,7 @@ export function Card({title, cardWithMain, buttonIsTransparent, Isenterprise, co
         </strong>
 
         <div className="button_container">
-          <Button title={t('ButtonTitleChoose')} transparent={buttonIsTransparent}/>
+          <Button titleAccessibility="Clique para escolher plano" titleButton={t('ButtonTitleChoose')} transparent={buttonIsTransparent}/>
         </div>
       </footer>
       </div>

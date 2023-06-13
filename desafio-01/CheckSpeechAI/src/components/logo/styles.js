@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  
 
   > a {
     display: flex;
@@ -24,8 +23,14 @@ export const Container = styled.div`
       padding: 0.313rem 0.5rem;
       border: 2px solid ${({ theme }) => theme.COLORS.BLUE_300};
     }
+
+    @media (max-width: 450px) {
+      > h1 {
+        font-size: 1rem;
+      }
+      > span {
+        font-size: 1.2rem;
+      }
+    }
   }
-
-
- 
 `;

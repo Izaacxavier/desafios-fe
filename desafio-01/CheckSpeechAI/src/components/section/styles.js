@@ -26,7 +26,7 @@ export const Container = styled.section`
     flex-direction: column;
     justify-content: center;
     padding: 2.5rem;
-    
+
     .group_1,
     .group_2 {
       width: 100%;
@@ -37,7 +37,7 @@ export const Container = styled.section`
         width: 12.5rem;
       }
     }
-    .hero_content{
+    .hero_content {
       padding-top: 3rem;
     }
   }
@@ -59,7 +59,6 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     padding: 0 6.375rem;
-
   }
   .text_solucoes {
     width: 100%;
@@ -78,18 +77,20 @@ export const Container = styled.section`
     width: 100%;
     overflow-x: scroll;
   }
+  .cards_content::-webkit-scrollbar {
+    display: none;
+  }
 
   .content_group_cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
- 
   }
   .button_switch_group {
     display: flex;
     justify-content: center;
-    padding: 25px ;
+    padding: 25px;
   }
 
   @media (max-width: 768px) {
@@ -108,7 +109,6 @@ export const Container = styled.section`
   }
 
   @media (max-width: 950px) {
- 
     .cards_content {
       justify-content: flex-start;
       padding: 1rem 0;
@@ -126,6 +126,11 @@ export const Container = styled.section`
         > img {
           width: 9.375rem;
         }
+      }
+    }
+    @media (max-width: 450px) {
+      > h2 {
+        font-size: 1.6rem;
       }
     }
   }

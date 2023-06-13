@@ -5,11 +5,11 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 100px;
   border-radius: 0 0 20px 25px;
   background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   position: fixed;
-  z-index: 800;
+  z-index: 900;
   animation: moveToRight 1s ease-in-out;;
   
 

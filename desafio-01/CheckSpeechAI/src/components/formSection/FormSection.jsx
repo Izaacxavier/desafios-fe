@@ -106,7 +106,7 @@ export function FormSection({id, title, subtitle}) {
         </div>
 
         <div className="button_content">
-          <Button title={t("ButtonTitleSend")} type="submit" />
+          <Button titleAccessibility="Clique para enviar" titleButton={t("ButtonTitleSend")} type="submit" />
         </div>
       </Form>
     </Container>

@@ -19,6 +19,7 @@ export const Container = styled.footer`
       text-align: start;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       > p {
+        font-size: 1rem;
         padding-top: 10px;
       }
     }

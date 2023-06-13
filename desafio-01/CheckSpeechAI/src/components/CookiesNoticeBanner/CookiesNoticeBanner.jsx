@@ -45,7 +45,9 @@ export function CookiesNoticeBanner() {
             </div>
           </main>
           <footer>
-            <button onClick={openConsense}>
+            <button 
+              title='clique saber mais'
+              onClick={openConsense}>
               {t('ReadMore')} {!isOpen ? <CaretDown /> : <CaretUp />}
             </button>
             <div className={isOpen ? "consenseOpen" : "consenseClosed"}>

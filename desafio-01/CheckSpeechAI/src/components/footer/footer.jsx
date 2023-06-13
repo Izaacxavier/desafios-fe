@@ -21,16 +21,16 @@ export function Footer() {
         </div>
         <div className="social">
           <div>
-          <a href="">
+          <a href="https://www.instagram.com/?__coig_restricted=1" title="https://www.instagram.com/?__coig_restricted=1">
               <InstagramLogo/>
           </a>
-          <a href="">
+          <a href="https://www.facebook.com" title="https://www.facebook.com">
             <FacebookLogo />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/feed/" title="https://www.linkedin.com/feed/">
             <LinkedinLogo />
           </a>
-          <a href="">
+          <a href="https://twitter.com/home" title="https://twitter.com/home">
             <TwitterLogo />
           </a>
           </div>

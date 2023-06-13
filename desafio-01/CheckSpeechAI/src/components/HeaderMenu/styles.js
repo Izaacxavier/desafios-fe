@@ -5,10 +5,11 @@ export const Container = styled.header`
     width: 100%;
     max-height: 100vh;
     background: ${({theme}) => theme.COLORS.BACKGROUND_900};
-    padding: 0.625rem 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 9999;
     top: 0;
+    left: 0;
    
 
     > nav{

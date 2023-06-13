@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  padding: 0rem 8rem;
+  padding: 8rem 8rem;
    
   .title {
     width: 31.25rem;
@@ -46,7 +46,7 @@ export const Container = styled.section`
 
   // Responsividade
   @media (max-width: 768px){
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     
   }
 

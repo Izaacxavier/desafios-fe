@@ -69,6 +69,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
+    overflow-x: hidden;
     z-index: 700;
 
     img {

@@ -53,7 +53,7 @@ export function InputSelect(value) {
     <Container>
       <div className="select">
         <div className="flags">
-        <img src={countryFlag} alt="" />
+        <img src={countryFlag} alt={countryName} />
           <input onClick={handleDropdown} className="input_country" type="text" value={countryName} />
         </div>
         <div className={isOpen ? "dropDown_options" : "dropDown_options is-open"}>

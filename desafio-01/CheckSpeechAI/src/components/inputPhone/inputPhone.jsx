@@ -50,7 +50,7 @@ export function InputPhone({ ...rest }) {
   return (
     <Container>
       <div className="select">
-        <img src={countryFlag} alt="" />
+        <img src={countryFlag} alt={countries} />
         {isOpen ? <CaretDown onClick={handleDropdown}/> : <CaretUp onClick={handleDropdown}/>}
         <div
           className={isOpen ? "dropdown_options" : "dropdown_options is-open"}

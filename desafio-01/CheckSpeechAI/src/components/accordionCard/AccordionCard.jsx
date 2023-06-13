@@ -18,7 +18,7 @@ export function AccordionCard({title, description}){
 
     return(
         <Container>
-          <header onClick={openCard}>
+          <header title='clique para saber mais' onClick={openCard}>
             <h3>{title}</h3>
            {CardIsOpen ? <CaretDown/> : <CaretUp/>}
           </header>

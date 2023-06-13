@@ -9,7 +9,7 @@ export function HeroSection ({title, titleButton}){
        <strong>{title}</strong>
         </div>
         <div className='button_content'>
-        <Button title={titleButton}/>
+        <Button titleAccessibility="Clique para começar agora" titleButton={titleButton}/>
         </div>
     </Container>
    )

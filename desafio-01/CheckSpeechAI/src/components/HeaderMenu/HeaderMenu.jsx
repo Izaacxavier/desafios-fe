@@ -42,22 +42,24 @@ export function Headermenu({handleMenuMobile, OpenedMenuMobile}){
 
               <div className="menu_mobile">
               <div className="button_traslate">
-                    <button onClick={handleLanguageTranslate}>
+                    <button 
+                    title='clique para alterar o idioma' 
+                    onClick={handleLanguageTranslate}>
                       <span className={
                     language === 'pt' ? "fi fi-br" : "fi fi-br"| 
                     language === 'es' ? "fi fi-es" : "fi fi-br"| 
                     language === 'en' ? "fi fi-us" : "fi fi-br"}></span>
                     </button>
                     <div className={lgMenuisOpen ? "flags_menu_isOpen" :"flags_menu_choose" }>
-                    <span onClick={() =>changeLanguage('en')} className="fi fi-us"></span>
-                    <span onClick={() =>changeLanguage('pt')} className="fi fi-br"></span>                    
-                    <span onClick={() =>changeLanguage('es')} className="fi fi-es"></span>                    
+                    <span onClick={() =>changeLanguage('en')} title="clique para mudar para ingles" className="fi fi-us"></span>
+                    <span onClick={() =>changeLanguage('pt')} title="clique para mudar para portugues" className="fi fi-br"></span>                    
+                    <span onClick={() =>changeLanguage('es')} title="clique para mudar para espanhol" className="fi fi-es"></span>                    
                     </div>
 
                 </div>
 
                 <div className="hamburgue_menu">
-                <button onClick={handleMenuMobile} className="button_open">{OpenedMenuMobile ? <List size={32} color="white" /> : <X size={32}color="white"/>}</button>
+                <button title={OpenedMenuMobile ? "Abrir Menu" : "Fechar menu"} onClick={handleMenuMobile} className="button_open">{OpenedMenuMobile ? <List size={32} color="white" /> : <X size={32}color="white"/>}</button>
                 <button className="button_closed"></button>
                 </div>
               </div>

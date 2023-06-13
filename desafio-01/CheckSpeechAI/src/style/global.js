@@ -22,7 +22,8 @@ export default createGlobalStyle`
         background-position: right;
         background-size: 500px;
         background-repeat: no-repeat;
-        padding-top: 100px
+        padding-top: 40px;
+        overflow-x: hidden;
         
     }
     a{
@@ -48,7 +49,8 @@ export default createGlobalStyle`
     @media (max-width: 768px){
     
     html{
-      font-size: 14px;
+      font-size: 12px;
+     
     }
   }
 

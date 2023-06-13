@@ -13,7 +13,7 @@ export function Banner({title, titleSpan, text, titleButton}) {
         </p>
 
         <div className="button_container">
-        <Button title={titleButton} transparent/>
+        <Button titleAccessibility="Clique para saber mais" titleButton={titleButton} transparent/>
         </div>
       </div>
     </Container>

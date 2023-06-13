@@ -77,6 +77,8 @@ export const Container = styled.div`
     display: none;
     flex-direction: column;
     overflow-y: scroll;
+    overflow-x: hidden;
+    
 
     img {
       width: 30px;

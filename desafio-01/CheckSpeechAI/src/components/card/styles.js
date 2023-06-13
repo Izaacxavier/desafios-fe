@@ -4,7 +4,7 @@ export const Container = styled.div`
   > .card {
     width: 23.75rem;
     height: 400px;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     border: 1px solid ${({ theme }) => theme.COLORS.GRAY_100};
     border-radius: 12px;
     color: ${({ theme }) => theme.COLORS.WHITE_100};
@@ -24,7 +24,7 @@ export const Container = styled.div`
       height: 220px;
 
       li {
-        margin-bottom: 5px;
+        margin-bottom: 0.313rem;
       }
     }
     > footer {
@@ -36,16 +36,16 @@ export const Container = styled.div`
       padding: 20px 5px;
 
       > strong {
-        font-size: 18px;
+        font-size: 1.125rem;
 
         > span {
-          font-size: 12px;
+          font-size: 0.75rem;
           color: ${({ theme }) => theme.COLORS.WHITE_100};
         }
       }
 
       > .button_container {
-        padding: 0 30px;
+        padding: 0 1.875rem;
       }
     }
     span {
@@ -54,9 +54,9 @@ export const Container = styled.div`
   }
 
   .card_enterprise {
-    width: 380px;
+    width: 23.75rem;
     height: 400px;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     border: 1px solid ${({ theme }) => theme.COLORS.GRAY_100};
     border-radius: 12px;
     color: ${({ theme }) => theme.COLORS.WHITE_100};
@@ -73,7 +73,7 @@ export const Container = styled.div`
       height: 220px;
 
       li {
-        margin-bottom: 15px;
+        margin-bottom: 0.313rem;
       }
     }
     > footer {
@@ -89,15 +89,15 @@ export const Container = styled.div`
       }
 
       > strong {
-        font-size: 18px;
+        font-size: 1.125rem;
 
         > span {
-          font-size: 12px;
+          font-size: 0.75rem;
         }
       }
 
       > .button_container {
-        padding: 0 30px;
+        padding: 0 1.875rem;
       }
     }
     span {
@@ -106,9 +106,9 @@ export const Container = styled.div`
   }
 
   .card_main {
-    width: 380px;
+    width: 23.75rem;
     height: 100%;
-    padding: 20px 30px;
+    padding: 1rem 1.875rem;
     border: 1px solid ${({ theme }) => theme.COLORS.GRAY_100};
     border-radius: 8px;
     color: ${({ theme }) => theme.COLORS.WHITE_100};
@@ -126,7 +126,7 @@ export const Container = styled.div`
       font-size: 1rem;
 
       li {
-        margin-bottom: 5px;
+        margin-bottom: 0.313rem;
       }
     }
     > footer {
@@ -135,17 +135,17 @@ export const Container = styled.div`
       justify-content: center;
       flex-direction: column;
       text-align: center;
-      padding: 20px 5px;
+      padding: 1.25rem 0.313rem;
 
       > .button_container {
-        padding: 0 30px;
+        padding: 0 1.875rem;
       }
 
       > strong {
-        font-size: 18px;
+        font-size: 1.125rem;
 
         > span {
-          font-size: 12px;
+          font-size: 0.75rem;
         }
       }
     }
